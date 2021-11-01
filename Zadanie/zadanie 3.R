@@ -20,7 +20,8 @@ kredyt[100:125,]
 kredyt[0:20,]
 tail(kredyt,30)
 kredyt[c(20:30,50:60),]
+kredyt[seq(10,nrow(kredyt),10),]
 tail(kredyt[,1],1)-head(kredyt[,1],1)
 head(kredyt[,2],1)-tail(kredyt[,2],1)
 sum(kredyt[,1])
-
+sum(kredyt[,2])
